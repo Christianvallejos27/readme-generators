@@ -1,6 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  console.log(license)
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -15,12 +17,12 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## table of contents
-  *[description](#description)
-  *[installation](#installation)
-  *[usage](#usage)
-  *[contributing](#contributing)
-  *[tests](#tests)
-  *[questions](#questions)
+  * [description](#description)
+  * [installation](#installation)
+  * [usage](#usage)
+  * [contributing](#contributing)
+  * [tests](#tests)
+  * [questions](#questions)
 
 
 
@@ -50,6 +52,8 @@ function generateMarkdown(data) {
 
 
   ##questions
+  if you have any questions email me at [${data.email}](mailto:${data.email})
+  check out my github [${data.github}](https://github.com/${data.github}/)
 `;
 }
 

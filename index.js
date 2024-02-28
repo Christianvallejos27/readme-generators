@@ -9,6 +9,55 @@ const questions = [
         type : "input",
         name : "title",
         message : "what is the name of your application?"
+    },
+    {
+        type : "input",
+        name : "description",
+        message : "describe your application"
+
+    },
+    {
+        
+        type : "input",
+        name : "installation",
+        message : "do you need to install anything?"
+    },
+    {
+        
+        type : "input",
+        name : "usage",
+        message : "how long will you use your application"
+    },
+    {
+        
+        type : "input",
+        name : "contributing",
+        message : "are there any contributors"
+    },
+    {
+        
+        type : "input",
+        name : "tests",
+        message : "is there any test applications in your software"
+    },
+    {
+        
+        type : "input",
+        name : "email",
+        message : "enter your email address"
+    },
+    {
+        
+        type : "input",
+        name : "github",
+        message : "what is your github username"
+    },
+    {
+        
+        type : "list",
+        name : "license",
+        message : "who is licensing this application",
+        choices : ["MIT","BSD 3.0","NONE"]
     }
 ];
 
